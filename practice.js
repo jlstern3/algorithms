@@ -32,6 +32,13 @@ function sum_odd(){
     return sum;
 }
 // 4. Write a function that returns the sum of all the values within an array. (e.g. [1,2,5] returns 8, [-5,2,5,12] returns 14)
+function sum_arr(arr){
+    var sum = arr[0];
+    for(var i = 1; i<arr.length; i++){
+        sum+=arr[i];
+    }
+    return sum;
+}
 
 // 5.Given an array with multiple values, write a function that returns the maximum number in the array. (e.g. for [-3,3,5,7] max is 7)
 
