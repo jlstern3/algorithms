@@ -51,7 +51,13 @@ function max_arr(arr){
     return max;
 }
 // 6. Given an array with multiple values, write a function that returns the average of the values in the array. (e.g. for [1,3,5,7,20] average is 7.2)
-
+function find_avg(arr){
+    var sum = arr[0];
+    for(var i = 1; i<arr.length; i++){
+        sum+=arr[i];
+    }
+    return (sum/arr.length);
+}
 // 7. Write a function that would return an array of all the odd numbers between 1 to 50. (ex. [1,3,5, .... , 47,49]). Hint: Use 'push' method.
 
 // 8. Given value of Y, write a function that takes an array and returns the number of values that are greater than Y. For example if arr = [1, 3, 5, 7] and Y = 3, your function will return 2. (There are two values in the array greater than 3, which are 5, 7).
