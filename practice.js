@@ -22,6 +22,15 @@ function sum_even(){
 }
 // 3. Write a function that returns the sum of all the odd numbers from 1 to 5000. (e.g. 1+3+5+...+4997+4999)
 
+function sum_odd(){
+    var sum = 0;
+    for(var i = 1; i< 5001; i++){
+        if(i%2!=0){
+            sum+=i;
+        }
+    }
+    return sum;
+}
 // 4. Write a function that returns the sum of all the values within an array. (e.g. [1,2,5] returns 8, [-5,2,5,12] returns 14)
 
 // 5.Given an array with multiple values, write a function that returns the maximum number in the array. (e.g. for [-3,3,5,7] max is 7)
