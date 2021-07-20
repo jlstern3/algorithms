@@ -58,8 +58,17 @@ function find_avg(arr){
     }
     return (sum/arr.length);
 }
-// 7. Write a function that would return an array of all the odd numbers between 1 to 50. (ex. [1,3,5, .... , 47,49]). Hint: Use 'push' method.
 
+// 7. Write a function that would return an array of all the odd numbers between 1 to 50. (ex. [1,3,5, .... , 47,49]). Hint: Use 'push' method.
+function odd_arr(){
+    var arr=[];
+    for (var i = 1; i<51; i++){
+        if (i%2!=0){
+            arr.push(i);
+        }
+    }
+    return arr;
+}
 // 8. Given value of Y, write a function that takes an array and returns the number of values that are greater than Y. For example if arr = [1, 3, 5, 7] and Y = 3, your function will return 2. (There are two values in the array greater than 3, which are 5, 7).
 
 // 9. Given an array with multiple values, write a function that replaces each value in the array with the product of the original value multiplied by itself. (e.g. [1,5,10,-2] will become [1,25,100,4])
