@@ -87,7 +87,14 @@ function multiply_by_self(arr){
     return arr;
 }
 // 10. Given an array with multiple values, write a function that replaces any negative numbers within the array with the value of 0. When the program is done the array should contain no negative values. (e.g. [1,5,10,-2] will become [1,5,10,0])
-
+function no_negatives(arr){
+    for(var i = 0; i < arr.length; i++){
+        if(arr[i]<0){
+            arr[i] = 0;
+        }
+    }
+    return arr;
+}
 // 11. Given an array with multiple values, write a function that returns a new array that only contains the maximum, minimum, and average values of the original array. (e.g. [1,5,10,-2] will return [10,-2,3.5])
 
 // 12. Write a function that will swap the first and last values of any given array. The default minimum length of the array is 2. (e.g. [1,5,10,-2] will become [-2,5,10,1]).
