@@ -96,7 +96,24 @@ function no_negatives(arr){
     return arr;
 }
 // 11. Given an array with multiple values, write a function that returns a new array that only contains the maximum, minimum, and average values of the original array. (e.g. [1,5,10,-2] will return [10,-2,3.5])
-
+function max_min_avg(arr){
+    var new_arr = [];
+    var max = arr[0];
+    var min = arr[0];
+    var sum = arr[0];
+    for(var i = 1; i<arr.length; i++){
+        sum += arr[i];
+        if (arr[i]>max){
+            max = arr[i];
+        }
+        if (arr[i]<min){
+            min = arr[i]; 
+        }
+    }
+    var avg = sum / arr.length;
+    new_arr.push(max, min, avg);
+    return new_arr;  
+}
 // 12. Write a function that will swap the first and last values of any given array. The default minimum length of the array is 2. (e.g. [1,5,10,-2] will become [-2,5,10,1]).
 
 // 13. Write a function that takes an array of numbers and replaces any negative values within the array with the string 'Dojo'. For example if array = [-1,-3,2], your function will return ['Dojo','Dojo',2].
