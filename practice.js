@@ -80,7 +80,12 @@ function greater_than_Y(arr, Y){
     return count;
 }
 // 9. Given an array with multiple values, write a function that replaces each value in the array with the product of the original value multiplied by itself. (e.g. [1,5,10,-2] will become [1,25,100,4])
-
+function multiply_by_self(arr){
+    for(var i = 0; i < arr.length; i++){
+        arr[i] = arr[i]*arr[i];
+    }
+    return arr;
+}
 // 10. Given an array with multiple values, write a function that replaces any negative numbers within the array with the value of 0. When the program is done the array should contain no negative values. (e.g. [1,5,10,-2] will become [1,5,10,0])
 
 // 11. Given an array with multiple values, write a function that returns a new array that only contains the maximum, minimum, and average values of the original array. (e.g. [1,5,10,-2] will return [10,-2,3.5])
