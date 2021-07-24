@@ -16,7 +16,7 @@ console.log(b);
 console.log(multiply(5,2));
 
 
-3. 
+// 3. Output: 3,7
 var x = [1,2,3,4,5,10];
 for(var i=0; i<5; i++)
 {
