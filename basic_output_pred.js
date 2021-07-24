@@ -17,11 +17,12 @@ for(var i=0; i<5; i++){
     console.log(i);
 }
 
-// 4. function y(num1, num2){   
-//     return num1+num2;
-//  }
-//  console.log(y(2,3));
-//  console.log(y(3,5));
+// 4. Output: 5,8
+function y(num1, num2){   
+    return num1+num2;
+}
+console.log(y(2,3));
+console.log(y(3,5));
 
 // 5. function y(num1, num2){
 //     console.log(num1);   
