@@ -1,6 +1,9 @@
-// 1. for(var i=0; i<5;i++){   
-//     console.log(i);
-//  }
+// 1. Output: 0,1,2,3,4
+for(var i=0; i<5;i++){   
+    console.log(i);
+}
+
+
 
 //  2. for(var i=0; i<5; i++)
 //  {
