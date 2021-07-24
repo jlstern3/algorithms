@@ -7,7 +7,7 @@ var b = multiply(2,3);
 console.log(b);
 
 
-2. 
+// 2. Output: 6,10
 function multiply(x,y){
     return x*y;
 }
