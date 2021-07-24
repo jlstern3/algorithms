@@ -1,4 +1,4 @@
-1.
+// 1. Output: 2,3,undefined
 function multiply(x,y){
     console.log(x);
     console.log(y);
