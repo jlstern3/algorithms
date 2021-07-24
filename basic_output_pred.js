@@ -5,11 +5,11 @@ for(var i=0; i<5;i++){
 
 
 
-//  2. for(var i=0; i<5; i++)
-//  {
-//     i = i + 1;  
-//     console.log(i);
-//  }
+// 2. Output: 1,3,5
+for(var i=0; i<5; i++){
+    i = i + 1;  
+    console.log(i);
+}
 
 //  3. for(var i=0; i<5; i++)
 //  {
