@@ -43,7 +43,7 @@ for(var i=0; i<15; i+=2){
 }
 
 
-5. 
+// 5. Output: 0,0,0,1,0,2
 for(var i=0; i<3; i++){
     for(var j=0; j<2; j++){      
         console.log(i*j);
