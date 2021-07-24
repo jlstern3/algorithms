@@ -11,11 +11,11 @@ for(var i=0; i<5; i++){
     console.log(i);
 }
 
-//  3. for(var i=0; i<5; i++)
-//  {
-//     i = i + 3; 
-//     console.log(i);
-//  }
+// 3. Output: 3,7
+for(var i=0; i<5; i++){
+    i = i + 3; 
+    console.log(i);
+}
 
 // 4. function y(num1, num2){   
 //     return num1+num2;
