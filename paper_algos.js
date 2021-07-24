@@ -25,7 +25,7 @@ for(var i=0; i<5; i++)
 }
 
 
-4. 
+// 4. Output: 15,15,10,15
 var x=15;
 console.log(x);
 function foo(){
