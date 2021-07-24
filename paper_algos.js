@@ -50,7 +50,7 @@ for(var i=0; i<3; i++){
     }
 } 
 
-6. 
+// 6. Output: 0,0,0,0,1,2,0,2,4,undefined
 function foo(x,y){
     for(var i=0; i<x; i++){
         for(var j=0; j<x; j++){        
