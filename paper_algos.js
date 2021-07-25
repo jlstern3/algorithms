@@ -74,14 +74,13 @@ var z = foo(3,5);
 console.log(z);
 
 
-8. 
+// 8. Output: 0,0,0,0,1,2,0,2,4,undefined
 function foo(x,y){
     for(var i=0; i<x; i++){
-        for(var j=0; j<y; j++){        
+        for(var j=0; j<x; j++){        
             console.log(i*j);
         } 
     }
-    return x*y;;
 }
-var z = foo(3,5);
+var z = foo(3,3);
 console.log(z);
