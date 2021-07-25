@@ -19,6 +19,17 @@ function print_to_x(x){
 // 2. PrintSum
 // Please complete the code below to have the function print integers from 0 to 255 and with each integer print the sum so far.  
 // Have the function return the final sum
+function print_sum(num){
+    var sum = 0;
+    for(var i = 1; i<num+1; i++){
+        sum += i;
+        console.log("Integer:" + i);
+        console.log("Sum so far:" + sum);
+    }
+    return sum;
+}
+
+
 
 // 3. PrintSumArray
 // Please complete the code below to have the function return the sum of all the values in a given array
