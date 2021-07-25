@@ -33,6 +33,13 @@ function print_sum(num){
 
 // 3. PrintSumArray
 // Please complete the code below to have the function return the sum of all the values in a given array
+function print_sum_arr(arr){
+    var sum = 0;
+    for (var i = 0; i< arr.length; i++){
+        sum += arr[i];
+    }
+    return sum;
+}
 
 // 4. Analyze an array’s values and return the average of each respective array.
 
