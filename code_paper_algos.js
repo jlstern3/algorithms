@@ -52,5 +52,14 @@ function avg_arr(arr){
 
 
 // 5. Create an array with all the odd integers between 1 and 255 (inclusive)
+function odd_integers(){
+    var arr = [];
+    for (var i = 1; i< 256; i++){
+        if (i%2!=0){
+            arr.push(i);
+        }
+    }
+    return arr;
+}
 
 // 6. Square each value in a given array, returning that same array with changed values.
