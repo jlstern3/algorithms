@@ -19,7 +19,8 @@ var b = foo(2,2)
 console.log(b);
 console.log(foo(6,8));
 
-3. 
+// 3. Output: [2,2,5]
+//question on why browser's console outputs: [2,2,5], undefined
 function foo(x){
     var z = [];
     z.push(x);
