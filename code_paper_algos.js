@@ -63,3 +63,9 @@ function odd_integers(){
 }
 
 // 6. Square each value in a given array, returning that same array with changed values.
+function square_arr(arr){
+    for (var i = 0; i<arr.length; i++){
+        arr[i] = arr[i]*arr[i];
+    }
+    return arr;
+}
