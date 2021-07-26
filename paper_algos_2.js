@@ -1,4 +1,5 @@
-1. 
+// 1. Output: 5, undefined
+//function returns 5 but there's no variable to catch it
 function foo(x,y){
     return 5;
 }
