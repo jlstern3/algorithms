@@ -10,6 +10,23 @@ function greaterThanY(arr, Y){
 }
 
 // 2. Given an array, print the max, min and average values for that array.
+function maxMinAvg(arr){
+    var max = arr[0];
+    var min = arr[0];
+    var sum = arr[0];
+    for (var i = 1; i<arr.length; i++){
+        sum+=arr[i];
+        if(arr[i]>max){
+            max = arr[i];
+        }
+        if (arr[i]<min){
+            min = arr[i];
+        }
+    }
+    var avg = sum/arr.length;
+    console.log(max, min, avg);
+}
+
 
 // 3. Given an array of numbers, create a function that returns a new array where negative values were replaced with the string ‘Dojo’. 
 
