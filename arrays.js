@@ -29,6 +29,14 @@ function maxMinAvg(arr){
 
 
 // 3. Given an array of numbers, create a function that returns a new array where negative values were replaced with the string ‘Dojo’. 
+function negativeDojo(arr){
+    for (var i = 0; i<arr.length; i++){
+        if (arr[i]<0){
+            arr[i]="Dojo";
+        }
+    }
+    return arr;
+}
 
 // 4. Given array, and indices start and end, remove vals in that index range, working in-place (hence shortening the array).  
 // For example, removeVals([20,30,40,50,60,70],2,4) should return [20,30,70].
