@@ -1,11 +1,12 @@
 // 1. Output: 5, undefined
-//function returns 5 but there's no variable to catch it
+//function returns 5 but there's no variable to catch it (hence undefined)
 function foo(x,y){
     return 5;
 }
 console.log(foo(5,5))
 
-2. 
+// 2. Output: [2,2,5],[2,2,5],[6,8,5],[6,8,5], undefined
+//function return z ([6,8,5]) to final line but no variable to catch it (hence undefined)
 function foo(x,y){
     var z = []
     z.push(x);
