@@ -42,6 +42,14 @@ function print_sum_arr(arr){
 }
 
 // 4. Analyze an array’s values and return the average of each respective array.
+function avg_arr(arr){
+    var sum = arr[0];
+    for (var i = 1; i<arr.length; i++){
+        sum +=arr[i];
+    }
+    return sum/arr.length;
+}
+
 
 // 5. Create an array with all the odd integers between 1 and 255 (inclusive)
 
