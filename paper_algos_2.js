@@ -19,8 +19,8 @@ var b = foo(2,2)
 console.log(b);
 console.log(foo(6,8));
 
-// 3. Output: [2,2,5]
-//question on why browser's console outputs: [2,2,5], undefined
+// 3. Output: [2,2,5], undefined (?????)
+//question on why browser's console outputs: [2,2,5], undefined 
 function foo(x){
     var z = [];
     z.push(x);
@@ -33,7 +33,9 @@ var y = foo(2);
 y.push(5);
 console.log(y);
 
-4. 
+// 4. Output: true, undefined (?????)
+//question on why browser's console outputs: [2,2,5], undefined 
+
 function foo(x){
     if(x[0] <x [1]) {
         return true;
