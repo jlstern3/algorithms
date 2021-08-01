@@ -56,3 +56,74 @@
 // been sorted, then rotated by an unknown
 // amount. Find and return the minimum value in
 // that array
+
+// 12. Rotate Array
+// Implement rotateArr(arr, shiftBy) that
+// accepts array and offset. Shift arr’s values to the
+// right by that amount. ‘Wrap-around’ any values
+// that shift off array’s end to the other side, so that
+// no data is lost. Operate in-place: given
+// ([1,2,3],1), change the array to [3,1,2].
+// Optionally, add these advanced features:
+// a) allow a negative shiftBy (shift left, not right),
+// b) minimize memory usage. With only a few local
+// variables (not an array), handle arrays and
+// shiftBys in the millions,
+// c) minimize how many touches of each element.
+
+// 13. Second-to-Last
+// Return the second-to-last element of an array.
+
+// 14. Second-Largest
+// Return the second-largest element of an array.
+
+// 15. Nth-to-Last
+// Return the element that is N-from-array’s-end. (pg 55)
+
+// 16. Nth-Largest
+// Given an array, return the Nth-largest element:
+// there should be (N - 1) elements that are larger
+
+// 17. arrConcat
+// Replicate JavaScript’s concat(). Create a
+// standalone function that accepts two arrays.
+// Return a new array containing the first array’s
+// elements, followed by the second array’s
+// elements. Do not alter the original arrays. Ex.:
+// arrConcat( ['a','b'], [1,2] ) should
+// return ['a','b',1,2]. (pg 56)
+
+// 18. Shuffle
+// Recreate the shuffle()built into JavaScript, to
+// efficiently shuffle a given array’s values. Do you
+// need to return anything from your function?
+
+// 19. Faster Factorial
+// Remember iFactorial from last chapter? Take
+// that implementation and use a time-space
+// tradeoff to accelerate the average running time.
+// Recall that iFactorial(num) returns the product of
+// positive integers from 1 to the given num. For
+// example: fact(1) = 1, fact(2) = 2, fact(3)
+// = 6. For these purposes, fact(0) = 1.
+
+// 20. Smarter Sum
+// Use a time-space tradeoff to accelerate the
+// average running time of an iSigma(num) function
+// that returns the sum of all positive integers from 1
+// to num. Recall: sig(1) = 1, sig(2) = 3, sig(3) = 6,
+// sig(4) = 10.
+
+// 21. Fabulous Fibonacci
+// Use a time-space tradeoff to accelerate the
+// average running time of an iFibonacci(num)
+// function that returns the ‘num’th number in the
+// Fibonacci sequence. Recall: fib(0) = 0, fib(1) = 1,
+// fib(2) = 1, fib(3) = 2.
+
+// 22. Tricky Tribonacci
+// Why stop with fibonacci? Create a function to
+// retrieve a “tribonacci” number, from the sum of
+// the previous 3. Tribonaccis are {0, 0, 1, 1, 2, 4, 7,
+// 13, 24, 44, 81, ...}. Again, use a time-space
+// tradeoff to make this fast. (pg 57)
