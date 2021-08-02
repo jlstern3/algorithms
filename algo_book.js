@@ -25,6 +25,11 @@
 // Given an array, remove and return the value at
 // the beginning of the array. Do this without using
 // any built-in array methods except pop().
+function popFront(arr){
+    temp = arr[0];
+    return temp;
+
+}
 
 // 7. Reverse Array
 // Given a numerical array, reverse the order of the
